@@ -36,6 +36,12 @@ canvas{
 
 #bg{
   background-color:red ;
+  /* position: relative; */
+  /* position: absolute; */
+  /* position: fixed;
+  left: 200px; */
+  position: sticky;
+  top: 200px;
 }
 
 #kiri{ 
