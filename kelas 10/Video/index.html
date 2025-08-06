@@ -31,15 +31,21 @@
 </head>
 
 <body>
-  
+ <div class="container">
+   
   <img src="assets/logo.png" alt="logo">
+ 
+  <nav>
+    <ul>
+      <li>About Us</li>
+      <li><a href="pages/kontak.html">Contact</a></li>
+      <li>Jurusan</li>
+      <li>Alamat</li>
+    </ul>
+  </nav> 
   
-  <ul>
-    <li>About Us</li>
-    <li>Contact</li>
-    <li>Jurusan</li>
-    <li>Alamat</li>
-  </ul>
+  
+  <section id="judul">
   
   <!-- Judul -->
   <h1>SMK Revit</h1>
@@ -121,9 +127,12 @@
     </tbody>
   </table>
   <br/>
+</section>
+ 
+ 
+<footer>
   
  <!-- Form -->
- 
  <Form action="" method="">
   <!-- beberapa jenis input -->
     <label for="text">Nama:</label>
@@ -165,7 +174,6 @@
     <label for="color">Warna Favorit:</label>
     <input type="color" id="color"><br/>
 
-   <input type="submit" value="submit" ><br/>
    
   <label for="jurusan">Pilih Jurusan:</label>
     <select name="jurusan" id="jurusan">
@@ -176,8 +184,12 @@
       <option value="4">BD</option>
       <option value="5">AK</option>
       <option value="6">MP</option>
-    </select>
+    </select><br/>
+    
+   <input type="submit" value="submit" ><br/>
  </Form>
+  </footer>
+ </div>
  
 </body>
 </html>
