@@ -18,24 +18,26 @@
   <meta property="og:url" content="">
   <meta property="og:type" content="website">
 
-
+<!-- Internal CSS -->
   <style>
-   img{ /* saya kecilkan karena terlalu besar gambarnya */
-     width: 30%;
-     height: 30%;
-   }
+
   </style>
+  
+  <!-- External CSS -->
+  <link rel="stylesheet" href="style.css">
 
   <title>Web Sekolah</title>
   
 </head>
 
 <body>
+  
+  <!-- Inline CSS -->
  <div class="container">
    
-  <img src="assets/logo.png" alt="logo">
  
-  <nav>
+  <nav class="batas warna">
+  <img src="assets/logo.png" alt="logo">
     <ul>
       <li>About Us</li>
       <li><a href="pages/kontak.html">Contact</a></li>
@@ -45,7 +47,7 @@
   </nav> 
   
   
-  <section id="judul">
+  <section id="bg">
   
   <!-- Judul -->
   <h1>SMK Revit</h1>
@@ -129,6 +131,20 @@
   <br/>
 </section>
  
+ <!-- VIDEO -->
+ <section id="video">
+   <video src="assets/BMW.mp4" controls=""></video>
+ </section>
+ 
+ <section id="audio">
+   <audio src="assets/marsSmenda.mp3" controls></audio>
+ </section>
+ 
+ <section id="canvas">
+   <canvas>
+     
+   </canvas>
+ </section>
  
 <footer>
   
